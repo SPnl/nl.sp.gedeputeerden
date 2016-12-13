@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="nl.sp.gedeputeerden" type="module">
+  <file>gedeputeerden</file>
+  <name>Gedeputeerden</name>
+  <description>Gedeputeerden (aangepaste zoekopdracht)</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Alain Benbassat</author>
+    <email>alain@businessandcode.eu</email>
+  </maintainer>
+  <releaseDate>2016-12-13</releaseDate>
+  <version>1.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>Aangepaste zoekopdracht voor provincies en gedeputeerden (#1221)</comments>
+  <civix>
+    <namespace>CRM/Gedeputeerden</namespace>
+  </civix>
+</extension>
