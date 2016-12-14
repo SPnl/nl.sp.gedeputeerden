@@ -59,8 +59,6 @@ class CRM_Gedeputeerden_Form_Search_Gedeputeerden extends CRM_Contact_Form_Searc
       INNER JOIN
         civicrm_contact prov ON r.`contact_id_b` = prov.`id`
       INNER JOIN
-        civicrm_entity_tag et ON et.entity_id = prov.id and et.entity_table = 'civicrm_contact'	 
-      INNER JOIN
         `civicrm_relationship_type` rt ON rt.id = r.`relationship_type_id`
 	  ";
   }
